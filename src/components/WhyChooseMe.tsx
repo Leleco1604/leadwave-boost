@@ -16,7 +16,7 @@ const benefits = [
   },
   {
     title: 'Transparent Reporting',
-    description: 'Clear, detailed reports that show exactly how your campaigns are performing and the value you're receiving.'
+    description: "Clear, detailed reports that show exactly how your campaigns are performing and the value you're receiving."
   }
 ];
 
