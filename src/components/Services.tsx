@@ -4,28 +4,28 @@ import { BarChart4, Target, Monitor, RefreshCw, Search } from 'lucide-react';
 
 const services = [
   {
-    title: 'Meta Ads & Google Ads Management',
-    description: 'Strategic campaign management across major platforms to maximize your ROI and reach your ideal customers.',
+    title: 'Gestão de Anúncios Meta e Google',
+    description: 'Gestão estratégica de campanhas nas principais plataformas para maximizar seu ROI e alcançar seus clientes ideais.',
     icon: <BarChart4 className="w-10 h-10 text-orange-500" />
   },
   {
-    title: 'Lead Generation Strategies',
-    description: 'Custom lead generation funnels designed to attract and convert high-quality prospects into customers.',
+    title: 'Estratégias de Geração de Leads',
+    description: 'Funis de geração de leads personalizados e projetados para atrair e converter prospects de alta qualidade em clientes.',
     icon: <Target className="w-10 h-10 text-orange-500" />
   },
   {
-    title: 'Landing Page Optimization',
-    description: 'Data-driven optimization to create high-converting landing pages that turn visitors into leads.',
+    title: 'Otimização de Landing Pages',
+    description: 'Otimização baseada em dados para criar páginas de destino de alta conversão que transformam visitantes em leads.',
     icon: <Monitor className="w-10 h-10 text-orange-500" />
   },
   {
-    title: 'Retargeting & Conversion Strategies',
-    description: 'Advanced retargeting campaigns that re-engage visitors and guide them through your conversion funnel.',
+    title: 'Estratégias de Retargeting e Conversão',
+    description: 'Campanhas avançadas de retargeting que reengajam visitantes e os guiam pelo seu funil de conversão.',
     icon: <RefreshCw className="w-10 h-10 text-orange-500" />
   },
   {
-    title: 'Performance Analysis & Optimization',
-    description: 'Comprehensive analytics and reporting to continuously improve campaign performance and ROI.',
+    title: 'Análise de Desempenho e Otimização',
+    description: 'Análise e relatórios abrangentes para melhorar continuamente o desempenho das campanhas e o ROI.',
     icon: <Search className="w-10 h-10 text-orange-500" />
   }
 ];
@@ -60,14 +60,14 @@ const Services = () => {
   }, []);
 
   return (
-    <section id="services" className="section-padding bg-white" ref={sectionRef}>
+    <section id="services" className="section-padding bg-black" ref={sectionRef}>
       <div className="container mx-auto container-padding">
         <div className="text-center max-w-2xl mx-auto mb-16 reveal-content">
           <h2 className="heading-2 mb-4">
-            Grow Your Business with <span className="text-orange-500">Expert</span> Traffic Management
+            Expanda seu Negócio com <span className="text-orange-500">Gestão</span> Especializada de Tráfego
           </h2>
           <p className="text-muted-foreground">
-            Comprehensive solutions designed to drive qualified leads and increase your conversion rates
+            Soluções abrangentes projetadas para atrair leads qualificados e aumentar suas taxas de conversão
           </p>
         </div>
 

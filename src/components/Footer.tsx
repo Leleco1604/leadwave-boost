@@ -10,7 +10,7 @@ const Footer = () => {
           <div>
             <h3 className="text-2xl font-bold text-orange-500 mb-4">TrafficPro</h3>
             <p className="text-gray-400 mb-4">
-              Strategic traffic management and qualified lead generation for businesses that want to grow.
+              Gestão estratégica de tráfego e geração de leads qualificados para empresas que desejam crescer.
             </p>
             <div className="flex space-x-4">
               <a
@@ -45,76 +45,76 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="font-semibold text-lg mb-4">Quick Links</h4>
+            <h4 className="font-semibold text-lg mb-4">Links Rápidos</h4>
             <ul className="space-y-2">
               <li>
                 <a href="#home" className="text-gray-400 hover:text-orange-500 transition-colors">
-                  Home
+                  Início
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-gray-400 hover:text-orange-500 transition-colors">
-                  Services
+                  Serviços
                 </a>
               </li>
               <li>
                 <a href="#testimonials" className="text-gray-400 hover:text-orange-500 transition-colors">
-                  Success Stories
+                  Casos de Sucesso
                 </a>
               </li>
               <li>
                 <a href="#contact" className="text-gray-400 hover:text-orange-500 transition-colors">
-                  Contact
+                  Contato
                 </a>
               </li>
             </ul>
           </div>
 
           <div>
-            <h4 className="font-semibold text-lg mb-4">Services</h4>
+            <h4 className="font-semibold text-lg mb-4">Serviços</h4>
             <ul className="space-y-2">
               <li>
                 <a href="#services" className="text-gray-400 hover:text-orange-500 transition-colors">
-                  Meta & Google Ads
+                  Anúncios Meta e Google
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-gray-400 hover:text-orange-500 transition-colors">
-                  Lead Generation
+                  Geração de Leads
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-gray-400 hover:text-orange-500 transition-colors">
-                  Landing Page Optimization
+                  Otimização de Landing Pages
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-gray-400 hover:text-orange-500 transition-colors">
-                  Retargeting Strategies
+                  Estratégias de Retargeting
                 </a>
               </li>
             </ul>
           </div>
 
           <div>
-            <h4 className="font-semibold text-lg mb-4">Contact</h4>
+            <h4 className="font-semibold text-lg mb-4">Contato</h4>
             <ul className="space-y-2">
               <li className="text-gray-400">
                 <span className="block">Email:</span>
-                <a href="mailto:hello@trafficpro.com" className="text-orange-500 hover:text-orange-400">
-                  hello@trafficpro.com
+                <a href="mailto:contato@trafficpro.com.br" className="text-orange-500 hover:text-orange-400">
+                  contato@trafficpro.com.br
                 </a>
               </li>
               <li className="text-gray-400">
-                <span className="block">Phone:</span>
-                <a href="tel:+1234567890" className="text-orange-500 hover:text-orange-400">
-                  +1 (234) 567-890
+                <span className="block">Telefone:</span>
+                <a href="tel:+551234567890" className="text-orange-500 hover:text-orange-400">
+                  +55 (12) 3456-7890
                 </a>
               </li>
               <li className="text-gray-400">
                 <span className="block">WhatsApp:</span>
-                <a href="https://wa.me/1234567890" className="text-orange-500 hover:text-orange-400">
-                  Connect Now
+                <a href="https://wa.me/551234567890" className="text-orange-500 hover:text-orange-400">
+                  Fale Agora
                 </a>
               </li>
             </ul>
@@ -123,14 +123,14 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-sm">
-            &copy; {new Date().getFullYear()} TrafficPro. All rights reserved.
+            &copy; {new Date().getFullYear()} TrafficPro. Todos os direitos reservados.
           </p>
           <div className="mt-4 md:mt-0 flex space-x-4">
             <a href="#" className="text-gray-500 hover:text-orange-500 text-sm">
-              Privacy Policy
+              Política de Privacidade
             </a>
             <a href="#" className="text-gray-500 hover:text-orange-500 text-sm">
-              Terms of Service
+              Termos de Serviço
             </a>
           </div>
         </div>

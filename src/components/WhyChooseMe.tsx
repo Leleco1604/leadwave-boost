@@ -3,27 +3,27 @@ import React, { useEffect, useRef } from 'react';
 
 const benefits = [
   {
-    title: 'Data-Driven Approach',
-    description: 'Every decision is backed by comprehensive data analysis to ensure the best possible outcomes for your campaigns.'
+    title: 'Abordagem Baseada em Dados',
+    description: 'Cada decisão é respaldada por análise abrangente de dados para garantir os melhores resultados possíveis para suas campanhas.'
   },
   {
-    title: 'Customized Strategies',
-    description: 'No cookie-cutter solutions. Each strategy is tailored to your specific business goals, target audience, and industry.'
+    title: 'Estratégias Personalizadas',
+    description: 'Sem soluções genéricas. Cada estratégia é adaptada aos seus objetivos específicos de negócio, público-alvo e setor.'
   },
   {
-    title: 'Proven Track Record',
-    description: 'Consistent results across various industries with documented success in increasing conversions and lowering ad costs.'
+    title: 'Histórico Comprovado',
+    description: 'Resultados consistentes em vários setores com sucesso documentado no aumento de conversões e redução de custos de anúncios.'
   },
   {
-    title: 'Transparent Reporting',
-    description: "Clear, detailed reports that show exactly how your campaigns are performing and the value you're receiving."
+    title: 'Relatórios Transparentes',
+    description: "Relatórios claros e detalhados que mostram exatamente como suas campanhas estão performando e o valor que você está recebendo."
   }
 ];
 
 const metrics = [
-  { label: 'Average ROI Increase', value: '284%' },
-  { label: 'Lead Quality Improvement', value: '68%' },
-  { label: 'Ad Cost Reduction', value: '37%' }
+  { label: 'Aumento Médio de ROI', value: '284%' },
+  { label: 'Melhoria na Qualidade dos Leads', value: '68%' },
+  { label: 'Redução de Custo de Anúncios', value: '37%' }
 ];
 
 const WhyChooseMe = () => {
@@ -63,16 +63,16 @@ const WhyChooseMe = () => {
   return (
     <section 
       id="why-choose-me" 
-      className="section-padding bg-gradient-to-b from-gray-50 to-white"
+      className="section-padding bg-gradient-to-b from-gray-900 to-black"
       ref={sectionRef}
     >
       <div className="container mx-auto container-padding">
         <div className="text-center max-w-2xl mx-auto mb-16 reveal-content">
           <h2 className="heading-2 mb-4">
-            Why Choose <span className="text-orange-500">Me</span>?
+            Por Que <span className="text-orange-500">Me</span> Escolher?
           </h2>
           <p className="text-muted-foreground">
-            My results-driven approach has helped businesses across various industries achieve significant growth
+            Minha abordagem orientada a resultados tem ajudado empresas de diversos setores a alcançar um crescimento significativo
           </p>
         </div>
 
@@ -85,7 +85,7 @@ const WhyChooseMe = () => {
                 className="flex gap-4 reveal-content"
                 style={{ transitionDelay: `${index * 100}ms` }}
               >
-                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-orange-100 flex items-center justify-center">
+                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-orange-900/60 flex items-center justify-center">
                   <span className="text-orange-500 font-bold">{index + 1}</span>
                 </div>
                 <div>
@@ -96,7 +96,7 @@ const WhyChooseMe = () => {
             ))}
           </div>
 
-          <div className="lg:border-l lg:pl-16 space-y-8">
+          <div className="lg:border-l lg:border-gray-800 lg:pl-16 space-y-8">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {metrics.map((metric, index) => (
                 <div 
@@ -116,31 +116,31 @@ const WhyChooseMe = () => {
               ref={(el) => (metricRefs.current[3] = el)}
               style={{ transitionDelay: '300ms' }}
             >
-              <h3 className="font-semibold text-xl mb-4">Key Benefits</h3>
+              <h3 className="font-semibold text-xl mb-4">Principais Benefícios</h3>
               <ul className="space-y-3">
                 <li className="flex items-center gap-3">
                   <svg className="w-5 h-5 text-orange-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                   </svg>
-                  <span>More Leads, Less Cost</span>
+                  <span>Mais Leads, Menor Custo</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <svg className="w-5 h-5 text-orange-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                   </svg>
-                  <span>Higher ROI on Ad Spend</span>
+                  <span>Maior ROI em Anúncios</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <svg className="w-5 h-5 text-orange-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                   </svg>
-                  <span>Exclusive Growth Strategies</span>
+                  <span>Estratégias Exclusivas de Crescimento</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <svg className="w-5 h-5 text-orange-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                   </svg>
-                  <span>Continuous Optimization</span>
+                  <span>Otimização Contínua</span>
                 </li>
               </ul>
             </div>
